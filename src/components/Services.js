@@ -16,7 +16,7 @@ const Services = () => {
         },
         {
           title: "Chaves RFC",
-          description: "Especialistas em chaves com tecnologia RFC",
+          description: "Especialistas em chaves com tecnologia RFC, TAG's, cartões de acesso e/ou identificação",
           icon: "📱"
         }
       ];
@@ -27,7 +27,7 @@ const Services = () => {
         <Row>
           {services.map((service, index) => (
             <Col md={4} key={index} className="mb-4">
-              <Card className="h-100 text-center shadow-sm">
+              <Card className="h-100 text-center shadow-lg border-2 ">
                 <Card.Body>
                   <div className="display-4 mb-3">{service.icon}</div>
                   <Card.Title>{service.title}</Card.Title>

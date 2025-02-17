@@ -2,11 +2,6 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hero-section {
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-}
 
 .card {
   transition: transform 0.3s ease;

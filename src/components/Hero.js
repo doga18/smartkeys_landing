@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import './hero.css'
 
 const Hero = () => {
   return (
@@ -9,12 +10,14 @@ const Hero = () => {
           <Col md={6}>
             <h1 className="display-4 fw-bold">SmartKeys</h1>
             <p className="lead">
-              Soluções profissionais em chaves e segurança para seu carro, casa ou empresa
+              Profissionais em chaves e segurança para seu carro, casa ou empresa
+              <hr />
+              Clique no botão para atendimento ou nos chame no número 51 99855-8430
             </p>
             <Button 
               variant="success" 
               size="lg"
-              href="https://wa.me/SEUNUMEROAQUI"
+              href="https://wa.me/51998558430"
               target="_blank"
               rel="noopener noreferrer"
             >
